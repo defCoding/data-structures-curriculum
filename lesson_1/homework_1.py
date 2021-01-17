@@ -13,7 +13,9 @@ def time_function(func, *args):
     """
     return round(timeit.timeit(lambda: func(*args), number=1) * 1000, 3)
 
-
+################################
+# Assume that 'n' is a list.
+################################
 def linear(n):
     # Create a function that runs in linear time.
     # TODO
